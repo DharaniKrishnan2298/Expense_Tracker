@@ -1,0 +1,143 @@
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;  
+  color: #333;  
+  margin: 0;
+  padding: 0;
+  font-size: 16px; 
+}
+
+
+.app-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+/* Summary Section */
+.summary {
+  margin: 20px 0;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.entry-form {
+  margin: 20px 0;
+  display: inline-flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1em; 
+}
+
+
+.entry-form input {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+}
+
+
+.entry-list {
+  margin-top: 30px;
+}
+
+
+.entry-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 6px; 
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1em; 
+  line-height: 1.4;
+}
+
+.entry-item.income {
+  background-color: #e0f7e9;  
+}
+
+.entry-item.expense {
+  background-color: #f7e0e0;  
+}
+
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  font-size: 1em;  
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 12px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.edit-form button {
+  padding: 12px 24px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+  max-width: 320px;
+}
+
+.edit-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.chart-container {
+  margin: 30px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+
+.pie-chart, .bar-chart {
+  margin: 30px 0;
+}
+
+canvas {
+  width: 100%;
+  max-width: 800px;
+  height: auto !important;
+  border-radius: 8px;
+}
+
+
+.text-muted {
+  color: #888;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
